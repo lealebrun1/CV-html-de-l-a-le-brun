@@ -1,43 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Gravitas+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap');
+
 html {
   background-color: #ffc0cb;
   font-size: 14px;
   font-family: Arial, sans-serif;
+  width: 100%;
 }
 #page {
   width: 80%;
-  margin: auto;
+  margin: 30px auto;
   background-color: white;
   padding: 30px;
+  border: 3px solid #d63384;
   border-radius: 15px;
+}
+
+#aboutme h2 {
+  text-align: center;
+}
+
+#aboutme ol {
+  text-align: center;
+  list-style-position: inside;
+}
+#aboutme p {
+  max-width: 600px;
+  margin: 20px auto;
+  text-align: center;
+   font-family: "Orbitron", sans-serif;
+   font-size: 20px;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  color: white;
 }
 .entete {
   text-align: center;
+  position: relative;
+  padding-bottom: 20px;
 }
 .logo {
-  width: 150px;
+  width: 300px;
   display: block;
-  margin: auto;
+  margin: 0 auto 10px auto;
 }
 .photo {
-  width: 150px;
-  float: right;
+  width: 200px;
+  position: absolute;
+  top: 80px;
+  right: 50px;
   border-radius: 10px;
 }
+h1:hover {
+  color: hotpink;
+}
 h1 {
+  font-size: 70px;
   color: #d63384;
+  margin: 10px 0;
+  font-family: "Gravitas One", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+h2 {
+  color: #aa2d6d;
+  font-size: 40px;
+  font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
 }
 table {
   width: 100%;
   border-collapse: collapse;
+  margin-top: 15px;
+  background-color: #fff5f8;
 }
+
 th {
-  background-color: #ff99bb;
+  background-color: #ff80aa;
+  color: white;
 }
+
 th, td {
-  border: 1px solid black;
-  padding: 8px;
+  border: 1px solid #d63384;
+  padding: 10px;
+  font-family: "Luckiest Guy", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
 }
+li {
+	font-family: "Crimson Text", serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 20px;
+}
+tr:hover {
+  background-color: #ffe6ef;
+}
+
 footer {
   text-align: center;
-  margin-top: 20px;
+  margin-top: 25px;
 }
+
