@@ -1,0 +1,43 @@
+html {
+  background-color: #ffc0cb;
+  font-size: 14px;
+  font-family: Arial, sans-serif;
+}
+#page {
+  width: 80%;
+  margin: auto;
+  background-color: white;
+  padding: 30px;
+  border-radius: 15px;
+}
+.entete {
+  text-align: center;
+}
+.logo {
+  width: 150px;
+  display: block;
+  margin: auto;
+}
+.photo {
+  width: 150px;
+  float: right;
+  border-radius: 10px;
+}
+h1 {
+  color: #d63384;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+th {
+  background-color: #ff99bb;
+}
+th, td {
+  border: 1px solid black;
+  padding: 8px;
+}
+footer {
+  text-align: center;
+  margin-top: 20px;
+}
